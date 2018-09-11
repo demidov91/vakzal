@@ -16,10 +16,10 @@
 (Правесці прыклад, як гэта фатаграфуецца)
 
 # Канвертацыя ў відэа
+Гатовыя каманды ляжаць у файлах `vakzal-1.sh`, `vakzal-2.sh`, `mall.sh`. 
+
 Зараз я карыстаюся `ffmpeg`. Калі ведаеце лепшы спосаб зрабіць гэта - пішыце ў `issues`, завадзіце `pull request` альбо пішыце на тэлеграм `@dzimdziam`.
 
 Прыклад каманды якая сканвертуе фоты з папкі `vakzal-1` у відэа `vakzal-1.mp4`:
 
 `ffmpeg -f image2 -r 10 -vcodec mjpeg -pix_fmt rgb24 -pattern_type glob -i 'vakzal-1/*' -vcodec libx264 -pix_fmt yuv420p -crf 25 vakzal-1.mp4`
-
-Гатовыя каманды ляжаць у файлах `vakzal-1.sh`, `vakzal-2.sh`, `mall.sh`. 
