@@ -3,8 +3,17 @@
 
 Папкі:
 * `vakzal-1` - від на будучы вестыбюль і на вароты Мінску з лістапада 2016 г.
+
+   https://www.youtube.com/watch?v=oLUH0QDZTDc
+   
 * `vakzal-2` - від на будпляцоўкі станцыі і гандлёвага комлексу са снежня 2016 г.
+
+   https://www.youtube.com/watch?v=IltfqOqouZU
+
+
 * `mall` - толькі гандлёвы комплекс з чэрвеня 2018 г.
+
+  https://www.youtube.com/watch?v=LJZBHNqS-eg
 
 # vakzal-1
 ![](readme-files/vakzal-1-edges.jpg)
@@ -25,8 +34,3 @@
 **Прыклад** каманды якая сканвертуе фоты з папкі `vakzal-1` у відэа `vakzal-1.mp4`:
 
 `ffmpeg -f image2 -r 10 -vcodec mjpeg -pix_fmt rgb24 -pattern_type glob -i 'vakzal-1/*' -vcodec libx264 -pix_fmt yuv420p -crf 25 vakzal-1.mp4`
-
-# Гатовыя відэа
-* `vakzal-1`: https://www.youtube.com/watch?v=oLUH0QDZTDc
-* `vakzal-2`: https://www.youtube.com/watch?v=IltfqOqouZU
-* `mall`: https://www.youtube.com/watch?v=LJZBHNqS-eg
