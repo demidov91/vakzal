@@ -15,18 +15,18 @@
 
   https://www.youtube.com/watch?v=LJZBHNqS-eg
 
-# vakzal-1
+### vakzal-1
 ![](readme-files/vakzal-1-edges.jpg)
 
-# vakzal-2
+### vakzal-2
 ![](readme-files/vakzal-2-edges.jpg)
 
-# mall
+### mall
 ![](readme-files/mall-edges.jpg)
 
 Усе фатаграфіі рабіліся з уключыным HDR, `mall` рабіўся з набліжэннем x1.5
 
-# Канвертацыя ў відэа
+## Канвертацыя ў відэа
 **Гатовыя** каманды ляжаць у файлах `vakzal-1.sh`, `vakzal-2.sh`, `mall.sh`. 
 
 Зараз я карыстаюся `ffmpeg`. Калі ведаеце лепшы спосаб зрабіць гэта - пішыце ў `issues`, завадзіце `pull request` альбо пішыце ў тэлеграм `@dzimdziam`.
